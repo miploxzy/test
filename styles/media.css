@@ -1,0 +1,42 @@
+@media screen and (max-width: 1000px) {
+    .some-block{
+        background: red;
+        height: 60px;
+
+    }
+}
+@media screen and (max-width: 600px) {
+    .some-block{
+        background: green;
+        height: 60px;
+        width: 50%;
+
+    }
+}
+@media screen and (max-width: 600px){
+.some-block{
+    height: 60px;
+    background: green;
+    width: 50%;
+}
+}
+.some-text{
+    font-size: 25px;
+    color:darkslategray;
+    text-align: center;
+}
+
+@media screen and (max-width:1189px){
+.card{
+    width: 48px;
+}
+}
+
+@media screen and (max-width:1189px){
+    .card-wrap{
+        justify-content:center;
+    }
+    .card{
+        width: 90%;
+    }
+}
